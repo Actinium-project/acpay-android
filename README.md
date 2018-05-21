@@ -23,8 +23,7 @@ web and desktop wallets.
 
 Simplicity is ShtPay's core design principle. A simple backup phrase is
 all you need to restore your wallet on another device if yours is ever lost or
-broken.  Because ShtPay is  
-[deterministic](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki),
+broken.  Because ShtPay is [deterministic](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki),
 your balance and transaction history can be recovered from just your backup
 phrase.
 
