@@ -1,8 +1,8 @@
 ## ShtPay for Android
 ----------------------------------
 
-[![download](/images/icon-google-play.png)]
-(https://play.google.com/store/apps/details?id=org.shtpay)
+[<img src="https://github.com/ShitcoinDeLuxe-project/shtpay-android/raw/master/images/icon-google-play.png">](
+https://play.google.com/store/apps/details?id=org.shtpay)
 
 #####a completely standalone Shitcoin DeLuxe wallet:
 
