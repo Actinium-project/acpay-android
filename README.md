@@ -4,7 +4,7 @@
 [<img src="https://github.com/ShitcoinDeLuxe-project/shtpay-android/raw/master/images/icon-google-play.png">](
 https://play.google.com/store/apps/details?id=org.shtpay)
 
-##### A completely standalone Shitcoin DeLuxe wallet:
+### A completely standalone Shitcoin DeLuxe wallet:
 
 Unlike many other wallets, ShtPay is a real standalone SHT
 client. There is no server to get hacked or go down, so you can always access
@@ -13,13 +13,13 @@ your money. Using
 mode, ShtPay connects directly to the SHT network with the fast
 performance you need on a mobile device.
 
-##### The next step in wallet security:
+### The next step in wallet security:
 
 ShtPay is designed to protect you from malware, browser security holes,
 *even physical theft*. With AES hardware encryption, app sandboxing, and verified boot, ShtPay represents a significant security advance over
 web and desktop wallets.
 
-##### Beautiful simplicity:
+### Beautiful simplicity:
 
 Simplicity is ShtPay's core design principle. A simple backup phrase is
 all you need to restore your wallet on another device if yours is ever lost or
@@ -37,7 +37,7 @@ phrase.
 - import [password protected](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) paper wallets
 - ["payment protocol"](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) payee identity certification
 
-##How to set up the development environment:
+### How to set up the development environment:
 1. Download and install Java 7 or up
 2. Download and Install the latest Android studio
 3. Download and install the 15c version of NDK https://developer.android.com/ndk/downloads/older_releases
