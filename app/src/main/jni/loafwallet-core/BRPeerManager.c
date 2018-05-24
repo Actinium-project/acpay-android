@@ -51,24 +51,25 @@
 
 static const struct { uint32_t height; const char *hash; uint32_t timestamp; uint32_t target; } checkpoint_array[] = {
         { 0,    "28d77872e23714562f49a1be792c276623c1bbe3fdcf21b6035cfde78b00b824", 1524649713, 0x1e0ffff0 },
-       /* {150,   "0xebc507a4e91a6947847a99d46c6765db03679f1e911c5c0236f59f30d62d0fd9", 1524697023, 0x1e0ffff0},
-        {300,   "0xf21218cf0f39cbf23113fe7962860b08292b2c59d6f577b85af5a8280e487289", 1524732325, 0x1e0ffff0},
-        {600,   "0x6cb9d69493db2deac182c8dcd56fd01a44f5e775365f09bd973a427cf729d491", 1524767448, 0x1e0ffff0},
-        {900,   "0x415b1c86d6fef15af7a51dbb5aca8e204ac60454480c1d53b1d14eb034cef0a7", 1524778552, 0x1e0ffff0},
-        {1000,  "0xf1d584601e77187e22daa8d551d8307295474a49a54055a0e3feb182223da7ee", 1524784982, 0x1e0ffff0},
-        {1100,  "0x2fa9d2cb200e033de86488a8b81d8009112f60614a06c803080cf167e99faf90", 1524794463, 0x1e0ffff0},
-        {1350,  "0x90879af3c77512419bf6d3bda0030a0c778e01cac37d5fc3ebbf021b659eb56c", 1524818179, 0x1e0ffff0},
-        {8918,  "0xf73dbfc07ee8275e43d57eb2ca5efb8dd721db8ced5d490502fd8330791957e0", 1525187640, 0x1d2be880},
-        {15313, "0x944690e2499d10b2fad85abe40bd8d96a8e39e4cfc0cf9dd767e4745502d53e8", 1525261139, 0x1d03222f},
-        {20554, "0x2302ebfe233144e3c2453e5b7dbfe1d82ddfed7765e15e29c31585f76fb679a5", 1525336539, 0x1c0c88b0},
-        {25000, "0x910672dd97f309b2b9e31cc1d90c76f0ac3471d28d984c6de2248e90a47e98a4", 1525553989, 0x1c00c88b},
-        {31000, "0xa9e143230939155ccac568720280c37cff729e1c010b8689202870da1981c53d", 1526657445, 0x1c0123d4}*/
+        /* {150,   "0xebc507a4e91a6947847a99d46c6765db03679f1e911c5c0236f59f30d62d0fd9", 1524697023, 0x1e0ffff0},
+         {300,   "0xf21218cf0f39cbf23113fe7962860b08292b2c59d6f577b85af5a8280e487289", 1524732325, 0x1e0ffff0},
+         {600,   "0x6cb9d69493db2deac182c8dcd56fd01a44f5e775365f09bd973a427cf729d491", 1524767448, 0x1e0ffff0},
+         {900,   "0x415b1c86d6fef15af7a51dbb5aca8e204ac60454480c1d53b1d14eb034cef0a7", 1524778552, 0x1e0ffff0},
+         {1000,  "0xf1d584601e77187e22daa8d551d8307295474a49a54055a0e3feb182223da7ee", 1524784982, 0x1e0ffff0},
+         {1100,  "0x2fa9d2cb200e033de86488a8b81d8009112f60614a06c803080cf167e99faf90", 1524794463, 0x1e0ffff0},
+         {1350,  "0x90879af3c77512419bf6d3bda0030a0c778e01cac37d5fc3ebbf021b659eb56c", 1524818179, 0x1e0ffff0},
+         {8918,  "0xf73dbfc07ee8275e43d57eb2ca5efb8dd721db8ced5d490502fd8330791957e0", 1525187640, 0x1d2be880},
+         {15313, "0x944690e2499d10b2fad85abe40bd8d96a8e39e4cfc0cf9dd767e4745502d53e8", 1525261139, 0x1d03222f},
+         {20554, "0x2302ebfe233144e3c2453e5b7dbfe1d82ddfed7765e15e29c31585f76fb679a5", 1525336539, 0x1c0c88b0},
+         {25000, "0x910672dd97f309b2b9e31cc1d90c76f0ac3471d28d984c6de2248e90a47e98a4", 1525553989, 0x1c00c88b},
+         {31000, "0xa9e143230939155ccac568720280c37cff729e1c010b8689202870da1981c53d", 1526657445, 0x1c0123d4}*/
 };
 
 static const char *dns_seeds[] = {
-    "testnet-seed.ltc.xurious.com.",
-    "seed-b.litecoin.loshan.co.uk.",
-    "dnsseed-testnet.thrasher.io."
+        "seed1.shit.supply.",
+        "seed2.shit.supply.",
+        "seed3.shit.supply.",
+        "seed4.shit.supply."
 };
 
 #else // main net
@@ -92,11 +93,10 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 };
 
 static const char *dns_seeds[] = {
-    "dnsseed.litecoinpool.org.",
-    "seed-a.litecoin.loshan.co.uk.",
-    "dnsseed.thrasher.io.",
-    "dnsseed.koin-project.com.",
-    "dnsseed.litecointools.com."
+    "seed1.shit.supply.",
+    "seed2.shit.supply.",
+    "seed3.shit.supply.",
+    "seed4.shit.supply."
 };
 
 #endif
@@ -478,7 +478,7 @@ static void _updateFilterPingDone(void *info, int success)
             }
         }
 
-         pthread_mutex_unlock(&manager->lock);
+        pthread_mutex_unlock(&manager->lock);
     }
     else free(info);
 }
@@ -728,19 +728,19 @@ static void *_findPeersThreadRoutine(void *arg)
     time_t now = time(NULL), age;
 
     pthread_cleanup_push(manager->threadCleanup, manager->info);
-    addrList = _addressLookup(((BRFindPeersInfo *)arg)->hostname);
-    free(arg);
-    pthread_mutex_lock(&manager->lock);
+        addrList = _addressLookup(((BRFindPeersInfo *)arg)->hostname);
+        free(arg);
+        pthread_mutex_lock(&manager->lock);
 
-    for (addr = addrList; addr && ! UInt128IsZero(*addr); addr++) {
-        age = 24*60*60 + BRRand(2*24*60*60); // add between 1 and 3 days
-        array_add(manager->peers, ((BRPeer) { *addr, STANDARD_PORT, services, now - age, 0 }));
-    }
+        for (addr = addrList; addr && ! UInt128IsZero(*addr); addr++) {
+            age = 24*60*60 + BRRand(2*24*60*60); // add between 1 and 3 days
+            array_add(manager->peers, ((BRPeer) { *addr, STANDARD_PORT, services, now - age, 0 }));
+        }
 
-    manager->dnsThreadCount--;
-    pthread_mutex_unlock(&manager->lock);
-    if (addrList) free(addrList);
-    pthread_cleanup_pop(1);
+        manager->dnsThreadCount--;
+        pthread_mutex_unlock(&manager->lock);
+        if (addrList) free(addrList);
+            pthread_cleanup_pop(1);
     return NULL;
 }
 
@@ -1209,7 +1209,7 @@ static int _BRPeerManagerVerifyBlock(BRPeerManager *manager, BRMerkleBlock *bloc
         // verify blockchain checkpoints
         if (checkpoint && ! BRMerkleBlockEq(block, checkpoint)) {
             peer_log(peer, "relayed a block that differs from the checkpoint at height %"PRIu32", blockHash: %s, "
-                     "expected: %s", block->height, u256_hex_encode(block->blockHash),
+                    "expected: %s", block->height, u256_hex_encode(block->blockHash),
                      u256_hex_encode(checkpoint->blockHash));
             r = 0;
         }
@@ -1443,7 +1443,7 @@ static void _peerRelayedBlock(void *info, BRMerkleBlock *block)
 }
 
 static void _peerDataNotfound(void *info, const UInt256 txHashes[], size_t txCount,
-                             const UInt256 blockHashes[], size_t blockCount)
+                              const UInt256 blockHashes[], size_t blockCount)
 {
     BRPeer *peer = ((BRPeerCallbackInfo *)info)->peer;
     BRPeerManager *manager = ((BRPeerCallbackInfo *)info)->manager;
