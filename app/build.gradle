@@ -7,31 +7,31 @@ model {
 
         defaultConfig {
             testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
-            applicationId = 'org.shtpay'
-            minSdkVersion.apiLevel = 23
+            applicationId = 'org.acpay'
+            minSdkVersion.apiLevel = 26
             targetSdkVersion.apiLevel = 26
-            versionCode = 2
-            versionName = "2"
+            versionCode = 3
+            versionName = "3"
         }
 
         productFlavors.with {
-            create("sht") {
-                applicationId "org.shtpay"
+            create("acpay") {
+                applicationId "org.acpay"
                 resValues.with {
                     create() {
                         type = "string"
                         name = "app_name"
-                        value = "ShtPay"
+                        value = "ACPay"
                     }
                 }
             }
-            create("shtdemo") {
-                applicationId "org.shtpaydemo"
+            create("acpaydemo") {
+                applicationId "org.acpaydemo"
                 resValues.with {
                     create() {
                         type = "string"
                         name = "app_name"
-                        value = "ShtPay-demo"
+                        value = "ACPay-demo"
                     }
                 }
             }

@@ -86,11 +86,11 @@ public class SpendLimitActivity extends BRActivity {
         //amount in satoshis
         BigDecimal satoshis = getAmountBySte(progress);
         //amount in BTC, mBTC or bits
-        BigDecimal amount = BRExchange.getAmountFromSatoshis(this, "SHT", satoshis);
+        BigDecimal amount = BRExchange.getAmountFromSatoshis(this, "ACM", satoshis);
         //amount in user preferred ISO (e.g. USD)
         BigDecimal curAmount = BRExchange.getAmountFromSatoshis(this, iso, satoshis);
         //formatted string for the label
-        String string = String.format("%s (%s)", BRCurrency.getFormattedCurrencyString(this, "SHT", amount), BRCurrency.getFormattedCurrencyString(this, iso, curAmount));
+        String string = String.format("%s (%s)", BRCurrency.getFormattedCurrencyString(this, "ACM", amount), BRCurrency.getFormattedCurrencyString(this, iso, curAmount));
         label.setText(string);
         BRKeyStore.putSpendLimit(satoshis.longValue(), this);
         updateTotalLimit();

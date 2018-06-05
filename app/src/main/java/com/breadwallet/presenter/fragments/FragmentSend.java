@@ -142,7 +142,7 @@ public class FragmentSend extends Fragment {
         regular = (BRButton) rootView.findViewById(R.id.left_button);
         economy = (BRButton) rootView.findViewById(R.id.right_button);
         close = (ImageButton) rootView.findViewById(R.id.close_button);
-        selectedIso = BRSharedPrefs.getPreferredBTC(getContext()) ? "SHT" : BRSharedPrefs.getIso(getContext());
+        selectedIso = BRSharedPrefs.getPreferredBTC(getContext()) ? "ACM" : BRSharedPrefs.getIso(getContext());
 
         amountBuilder = new StringBuilder(0);
         setListeners();
@@ -342,7 +342,7 @@ public class FragmentSend extends Fragment {
             @Override
             public void onClick(View v) {
                 if (selectedIso.equalsIgnoreCase(BRSharedPrefs.getIso(getContext()))) {
-                    selectedIso = "SHT";
+                    selectedIso = "ACM";
                 } else {
                     selectedIso = BRSharedPrefs.getIso(getContext());
                 }

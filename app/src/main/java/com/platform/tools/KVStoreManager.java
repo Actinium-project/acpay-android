@@ -106,7 +106,7 @@ public class KVStoreManager {
 
         //sanity check
         if (old.classVersion == 0) old.classVersion = 1;
-        if (old.name != null) old.name = "My ShtPay";
+        if (old.name != null) old.name = "My ACPay";
 
         JSONObject obj = new JSONObject();
         byte[] result;

@@ -1,29 +1,29 @@
-## ShtPay for Android
+## ACPay for Android
 ------
 
-[<img src="https://github.com/ShitcoinDeLuxe-project/shtpay-android/raw/master/images/icon-google-play.png">](
-https://play.google.com/store/apps/details?id=org.shtpay)
+[<img src="https://github.com/Actinium-project/acpay-android/raw/master/images/icon-google-play.png">](
+https://play.google.com/store/apps/details?id=org.acpay)
 
-### A completely standalone Shitcoin DeLuxe wallet
+### A completely standalone Actinium wallet
 
-Unlike many other wallets, ShtPay is a real standalone SHT
+Unlike many other wallets, ACPay is a real standalone ACM
 client. There is no server to get hacked or go down, so you can always access
 your money. Using
 [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients)
-mode, ShtPay connects directly to the SHT network with the fast
+mode, ACPay connects directly to the Actinium network with the fast
 performance you need on a mobile device.
 
 ### The next step in wallet security
 
-ShtPay is designed to protect you from malware, browser security holes,
-*even physical theft*. With AES hardware encryption, app sandboxing, and verified boot, ShtPay represents a significant security advance over
+ACPay is designed to protect you from malware, browser security holes,
+*even physical theft*. With AES hardware encryption, app sandboxing, and verified boot, ACPay represents a significant security advance over
 web and desktop wallets.
 
 ### Beautiful simplicity
 
-Simplicity is ShtPay's core design principle. A simple backup phrase is
+Simplicity is ACPay's core design principle. A simple backup phrase is
 all you need to restore your wallet on another device if yours is ever lost or
-broken.  Because ShtPay is [deterministic](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki),
+broken.  Because ACPay is [deterministic](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki),
 your balance and transaction history can be recovered from just your backup
 phrase.
 

@@ -68,7 +68,7 @@ public class BRConstants {
     public static final String FEE_KB_PREFS = "feeKb";
     public static final String ECONOMY_FEE_KB_PREFS = "EconomyFeeKb";
     public static final String LITTLE_CIRCLE = "\u2022";
-    public static String SUPPORT_EMAIL = "support@shitcoindeluxe.org";
+    public static String SUPPORT_EMAIL = "info@actinium.org";
 
     public static final int ONE_BITCOIN = 100000000;
     public static final int HUNDRED_BITS = 10000000;
@@ -108,8 +108,8 @@ public class BRConstants {
     public static final int CURRENT_UNIT_LITES = 1;
     public static final int CURRENT_UNIT_LITECOINS = 2;
 
-    public static final String litecoinLowercase = "ƨ";
-    public static final String litecoinUppercase = "S";
+    public static final String litecoinLowercase = "a";
+    public static final String litecoinUppercase = "A";
 
     public static final long PASS_CODE_TIME_LIMIT = TimeUnit.MILLISECONDS.convert(6, TimeUnit.DAYS);
 
@@ -129,9 +129,9 @@ public class BRConstants {
     public static final String fingerprintSpendingLimit = "fingerprint-spending-limit";
     public static final String transactionDetails = "transaction-details";
 //    public static final String manageWallet = "manage-wallet";
-    public static final String receive = "receive-shitcoin";
+    public static final String receive = "receive-actinium";
 //    public static final String requestAmount = "request-amount";
-    public static final String send = "send-shitcoin";
+    public static final String send = "send-actinium";
     public static final String walletDisabled = "wallet-disabled";
     public static final String resetPinWithPaperKey = "reset-pin-paper-key";
     public static final String setPin = "set-pin";
@@ -141,12 +141,12 @@ public class BRConstants {
     public static final String startView = "start-view";
     public static final String wipeWallet = "wipe-wallet";
 
-    // or https://twitter.com/shitcoindeluxe
-    public static final String TWITTER_LINK = "https://twitter.com/ShitcoinDeLuxe";
-    public static final String REDDIT_LINK = "https://www.reddit.com/r/ShitcoinDeLuxe";
-    public static final String BLOG_LINK = "http://shitcoindeluxe.org";
 
-    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://http://45.63.92.210:3001/tx/" :"http://45.63.92.210:3001/tx/";
+    public static final String TWITTER_LINK = "https://twitter.com/ActiniumCrypto";
+    public static final String REDDIT_LINK = "https://www.reddit.com/r/ActiniumCrypto";
+    public static final String BLOG_LINK = "http://actinium.org";
+
+    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://explorer.actinium.org/tx/" :"http://explorer.actinium.org/tx/";
 
     private BRConstants() {
     }

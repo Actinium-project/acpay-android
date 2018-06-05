@@ -402,7 +402,7 @@ public class BRWalletManager {
                 app.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        String am = BRCurrency.getFormattedCurrencyString(context, "SHT", BRExchange.getBitcoinForSatoshis(context, new BigDecimal(amount)));
+                        String am = BRCurrency.getFormattedCurrencyString(context, "ACM", BRExchange.getBitcoinForSatoshis(context, new BigDecimal(amount)));
                         String amCur = BRCurrency.getFormattedCurrencyString(context, BRSharedPrefs.getIso(context), BRExchange.getAmountFromSatoshis(context, BRSharedPrefs.getIso(context), new BigDecimal(amount)));
                         String formatted = String.format("%s (%s)", am, amCur);
                         String strToShow = String.format(context.getString(R.string.TransactionDetails_received), formatted);

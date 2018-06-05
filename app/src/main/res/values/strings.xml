@@ -3,7 +3,7 @@
   <!-- About screen blog label -->
   <string name="About.blog">Blog</string>
   <!-- About screen footer -->
-  <string name="About.footer">Made by the global ShtPay team. Version %1$s.</string>
+  <string name="About.footer">Made by the global ACPay team. Version %1$s.</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Privacy Policy</string>
   <!-- About screen reddit label -->
@@ -21,7 +21,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Loading Wallet</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">My ShtPay</string>
+  <string name="AccountHeader.defaultWalletName">My ACPay</string>
   <!-- Equals symbol -->
   <string name="AccountHeader.equals">=</string>
   <!-- Manage wallet button title -->
@@ -76,8 +76,8 @@
   <string name="BCH.txHashHeader">BCH Transaction ID</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Approve</string>
-  <!-- <sitename> is requesting authentication using your SHT wallet -->
-  <string name="BitID.authenticationRequest">%1$s is requesting authentication using your SHT wallet</string>
+  <!-- <sitename> is requesting authentication using your ACM wallet -->
+  <string name="BitID.authenticationRequest">%1$s is requesting authentication using your ACM wallet</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Deny</string>
   <!-- BitID error alert title -->
@@ -128,8 +128,8 @@
   <string name="ConfirmPaperPhrase.label">To make sure everything was written down correctly, please enter the following words from your paper key.</string>
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">Word #%1$s</string>
-  <!-- Shitcoin denomination picker label -->
-  <string name="DefaultCurrency.litecoinLabel">Shitcoin Display Unit</string>
+  <!-- Actinium denomination picker label -->
+  <string name="DefaultCurrency.litecoinLabel">Actinium Display Unit</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">Exchange Rate</string>
   <!-- Email unavailable alert title -->
@@ -155,7 +155,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Checking private key balance...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Send %1$s (%2$s) from this private key into your wallet? The shitcoin network will receive a fee of %3$s (%4$s).</string>
+  <string name="Import.confirm">Send %1$s (%2$s) from this private key into your wallet? The actinium network will receive a fee of %3$s (%4$s).</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">This private key is already in your wallet.</string>
   <!-- empty private key error message -->
@@ -173,13 +173,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Wallet to be imported</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Importing a wallet transfers all the money from your other wallet into your ShtPay wallet using a single transaction.</string>
+  <string name="Import.message">Importing a wallet transfers all the money from your other wallet into your ACPay wallet using a single transaction.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">This private key is password protected.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">password</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Your ShtPay Wallet</string>
+  <string name="Import.rightCaption">Your ACPay Wallet</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Scan Private Key</string>
   <!-- Import wallet success alert title -->
@@ -199,9 +199,9 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Ignore</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">DEVICE SECURITY COMPROMISED\n Any \'jailbreak\' app can access ShtPay\'s keychain data and steal your shitcoin! Wipe this wallet immediately and restore on a secure device.</string>
+  <string name="JailbreakWarnings.messageWithBalance">DEVICE SECURITY COMPROMISED\n Any \'jailbreak\' app can access ACPay\'s keychain data and steal your actinium! Wipe this wallet immediately and restore on a secure device.</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithoutBalance">DEVICE SECURITY COMPROMISED\n Any \'jailbreak\' app can access ShtPay\'s keychain data and steal your shitcoin. Please only use ShtPay on a non-jailbroken device.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">DEVICE SECURITY COMPROMISED\n Any \'jailbreak\' app can access ACPay\'s keychain data and steal your actinium. Please only use ACPay on a non-jailbroken device.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">WARNING</string>
   <!-- Wipe wallet button -->
@@ -209,7 +209,7 @@
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Location services are disabled.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">ShtPay does not have permission to access location services.</string>
+  <string name="LocationPlugin.notAuthorized">ACPay does not have permission to access location services.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">You created your wallet on %1$s</string>
   <!-- Manage wallet description text -->
@@ -218,8 +218,8 @@
   <string name="ManageWallet.textFeildLabel">Wallet Name</string>
   <!-- Manage wallet modal title -->
   <string name="ManageWallet.title">Manage Wallet</string>
-  <!-- Buy shitcoin title -->
-  <string name="MenuButton.buy">Buy Shitcoin</string>
+  <!-- Buy actinium title -->
+  <string name="MenuButton.buy">Buy Actinium</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Lock Wallet</string>
   <!-- Menu button title -->
@@ -251,7 +251,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Node Connection Status</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Shitcoin Nodes</string>
+  <string name="NodeSelector.title">Actinium Nodes</string>
   <!-- Bad Payment request alert title -->
   <string name="PaymentProtocol.Errors.badPaymentRequest">Bad Payment Request</string>
   <!-- Error opening payment protocol file message -->
@@ -263,9 +263,9 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Couldn\'t make payment</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Shitcoin payments can\'t be less than %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Actinium payments can\'t be less than %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Shitcoin transaction outputs can\'t be less than $@.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Actinium transaction outputs can\'t be less than $@.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">unsupported signature type</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -283,7 +283,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transaction Rejected</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Help improve ShtPay by sharing your anonymous data with us</string>
+  <string name="Prompts.ShareData.body">Help improve ACPay by sharing your anonymous data with us</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Share Anonymous Data</string>
   <!-- Enable touch ID prompt body -->
@@ -291,11 +291,11 @@
   <!-- Enable touch ID prompt title -->
   <string name="Prompts.TouchId.title">Enable Touch ID</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">ShtPay has upgraded to using a 6-digit PIN. Tap here to upgrade.</string>
+  <string name="Prompts.UpgradePin.body">ACPay has upgraded to using a 6-digit PIN. Tap here to upgrade.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Upgrade PIN</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Turn on notifications to receive special messages from ShtPay in the future.</string>
+  <string name="PushNotifications.body">Turn on notifications to receive special messages from ACPay in the future.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push Notifications</string>
   <!-- Push notifications are off label -->
@@ -325,7 +325,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Enter Paper Key</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Recover your ShtPay with your paper key.</string>
+  <string name="RecoverWallet.intro">Recover your ACPay with your paper key.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">The paper key you entered is invalid. Please double-check each word and try again.</string>
   <!-- Previous button accessibility label -->
@@ -342,7 +342,7 @@
   <string name="RecoverWallet.subheader_reset_pin">To reset your PIN, enter the words from your paper key into the boxes below.</string>
   <!-- No amount entered error message. -->
   <string name="RequestAnAmount.noAmount">Please enter an amount first.</string>
-  <!-- Request a specific amount of shitcoin -->
+  <!-- Request a specific amount of actinium -->
   <string name="RequestAnAmount.title">Request an Amount</string>
   <!-- Alert action button label -->
   <string name="ReScan.alertAction">Sync</string>
@@ -353,7 +353,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minutes</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">If a transaction shows as completed on the shitcoin network but not in your ShtPay.</string>
+  <string name="ReScan.body2">If a transaction shows as completed on the actinium network but not in your ACPay.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">You repeatedly get an error saying your transaction was rejected.</string>
   <!-- Start Sync button label -->
@@ -366,7 +366,7 @@
   <string name="ReScan.subheader1">Estimated time</string>
   <!-- Subheader label -->
   <string name="ReScan.subheader2">When to Sync?</string>
-  <!-- Scan shitcoin address camera flash toggle -->
+  <!-- Scan actinium address camera flash toggle -->
   <string name="Scanner.flashButtonLabel">Camera Flash</string>
   <!-- Complete filter label -->
   <string name="Search.complete">complete</string>
@@ -379,17 +379,17 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Enable all security features for maximum protection.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">The only way to access your shitcoin if you lose or upgrade your phone.</string>
+  <string name="SecurityCenter.paperKeyDescription">The only way to access your actinium if you lose or upgrade your phone.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Paper Key</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Protects your ShtPay from unauthorized users.</string>
+  <string name="SecurityCenter.pinDescription">Protects your ACPay from unauthorized users.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-Digit PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Security Center</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Conveniently unlock your ShtPay and send money up to a set limit.</string>
+  <string name="SecurityCenter.touchIdDescription">Conveniently unlock your ACPay and send money up to a set limit.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Send money amount label -->
@@ -399,7 +399,7 @@
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Go to Settings to allow camera access.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">ShtPay is not allowed to access the camera</string>
+  <string name="Send.cameraUnavailableTitle">ACPay is not allowed to access the camera</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">The destination is your own address. You cannot send to yourself.</string>
   <!-- Could not create transaction alert title -->
@@ -413,9 +413,9 @@
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">Payee identity isn\'t certified.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">The destination address is not a valid shitcoin address.</string>
+  <string name="Send.invalidAddressMessage">The destination address is not a valid actinium address.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Pasteboard does not contain a valid shitcoin address.</string>
+  <string name="Send.invalidAddressOnPasteboard">Pasteboard does not contain a valid actinium address.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Invalid Address</string>
   <!-- Is rescanning error message -->
@@ -441,7 +441,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">To</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Shitcoin addresses are intended for single use only.</string>
+  <string name="Send.UsedAddress.firstLine">Actinium addresses are intended for single use only.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Re-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn\'t directly control the address.</string>
   <!-- Adress already used alert title -->
@@ -455,7 +455,7 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Join Early Access</string>
   <!-- Are you enjoying loaf alert message body -->
-  <string name="Settings.enjoying">Are you enjoying ShtPay?</string>
+  <string name="Settings.enjoying">Are you enjoying ACPay?</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Import Wallet</string>
   <!-- Manage settings section header -->
@@ -477,7 +477,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Start/Recover Another Wallet</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Help improve ShtPay by sharing your anonymous data with us. This does not include any financial information. We respect your financial privacy.</string>
+  <string name="ShareData.body">Help improve ACPay by sharing your anonymous data with us. This does not include any financial information. We respect your financial privacy.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Share Data?</string>
   <!-- Share data switch label. -->
@@ -485,17 +485,17 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Write Down Paper Key Again</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Your paper key is the only way to restore your ShtPay if your phone is lost, stolen, broken, or upgraded.\n\nWe will show you a list of words to write down on a piece of paper and keep safe.</string>
+  <string name="StartPaperPhrase.body">Your paper key is the only way to restore your ACPay if your phone is lost, stolen, broken, or upgraded.\n\nWe will show you a list of words to write down on a piece of paper and keep safe.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Write Down Paper Key</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">You last wrote down your paper key on %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">The most secure and safest way to use shitcoin.</string>
+  <string name="StartViewController.message">The most secure and safest way to use actinium.</string>
   <!-- Support email adress & twitter -->
   <string name="Support.Title">Have questions or concerns?</string>
   <!-- Support email adress & twitter -->
-  <string name="Support.Message">Leave us a message at info@shitcoindeluxe.org or tweet us @ShitcoinDeLuxe</string>
+  <string name="Support.Message">Leave us a message at info@actinium.org or tweet us @ActiniumCrypto</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Connecting</string>
   <!-- Syncing view header text -->
@@ -515,13 +515,13 @@
   <!-- You can customize your Touch ID Spending Limit from the [TouchIdSettings.linkText gets added here as a button] -->
   <string name="TouchIdSettings.customizeText">You can customize your Touch ID spending limit from the %1$s.</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Use your fingerprint to unlock your ShtPay and send money up to a set limit.</string>
+  <string name="TouchIdSettings.label">Use your fingerprint to unlock your ACPay and send money up to a set limit.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Touch ID Spending Limit Screen</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Spending limit: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Enable Touch ID for ShtPay</string>
+  <string name="TouchIdSettings.switchLabel">Enable Touch ID for ACPay</string>
   <!-- Touch ID settings view title -->
   <string name="TouchIdSettings.title">Touch ID</string>
   <!-- Touch ID unavailable alert message -->
@@ -595,7 +595,7 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">to %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">Shitcoin Transaction ID</string>
+  <string name="TransactionDetails.txHashHeader">Actinium Transaction ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Received at this Address</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -613,15 +613,15 @@
   <!-- Unlock Screen sub-header -->
   <string name="UnlockScreen.subheader">Enter PIN</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Unlock your ShtPay.</string>
+  <string name="UnlockScreen.touchIdPrompt">Unlock your ACPay.</string>
   <!-- Unlock with TouchID accessibility label -->
   <string name="UnlockScreen.touchIdText">Unlock with TouchID</string>
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Wallet Unlocked</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Remember this PIN. If you forget it, you won\'t be able to access your shitcoin.</string>
+  <string name="UpdatePin.caption">Remember this PIN. If you forget it, you won\'t be able to access your actinium.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Your PIN will be used to unlock your ShtPay and send money.</string>
+  <string name="UpdatePin.createInstruction">Your PIN will be used to unlock your ACPay and send money.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Set PIN</string>
   <!-- Update PIN title -->
@@ -657,7 +657,7 @@
   <!-- View a transaction on the blockchain explorer -->
   <string name="ViewOnBlockchain">View on blockchain</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Open the ShtPay iPhone app to set up your wallet.</string>
+  <string name="Watch.noWalletWarning">Open the ACPay iPhone app to set up your wallet.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Dismiss</string>
   <!-- Webview loading error message -->
@@ -665,9 +665,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Updating...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">ShtPaywallet has changed its name to ShtPay, with a brand new look and some new features.\n\nIf you need help, look for the (?) in the top right of most screens.</string>
+  <string name="Welcome.body">ACPay wallet has changed its name to ACPay, with a brand new look and some new features.\n\nIf you need help, look for the (?) in the top right of most screens.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Welcome to ShtPay!</string>
+  <string name="Welcome.title">Welcome to ACPay!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Are you sure you want to delete this wallet?</string>
   <!-- Wipe wallet alert title -->
@@ -679,9 +679,9 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Enter this wallet\'s recovery phrase to wipe it and start or recover another. Your current balance remains on this phrase.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Starting or recovering another wallet allows you to access and manage a different ShtPay wallet on this device.</string>
+  <string name="WipeWallet.startMessage">Starting or recovering another wallet allows you to access and manage a different ACPay wallet on this device.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWaring">You will no longer be able to access your current ShtPay wallet from this device. The balance will remain on the phrase.</string>
+  <string name="WipeWallet.startWaring">You will no longer be able to access your current ACPay wallet from this device. The balance will remain on the phrase.</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">Start or Recover Another Wallet</string>
   <!-- Wipe wallet button title -->

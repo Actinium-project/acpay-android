@@ -128,7 +128,7 @@
   <string name="ConfirmPaperPhrase.label">Per assicurarti che tutto sia stato scritto correttamente, per favore inserisci le seguenti parole della tua chiave cartacea.</string>
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">Parola n°%1$s</string>
-  <!-- Shitcoin denomination picker label -->
+  <!-- Actinium denomination picker label -->
   <string name="DefaultCurrency.litecoinLabel">Unità di visualizzazione bitcoin</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">Tasso di Cambio</string>
@@ -155,7 +155,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Verifica del saldo della chiave privata...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Inviare %1$s (%2$s) da questa chiave privata al tuo portafoglio? La rete shitcoin riceverà una commissione di %3$s (%4$s).</string>
+  <string name="Import.confirm">Inviare %1$s (%2$s) da questa chiave privata al tuo portafoglio? La rete actinium riceverà una commissione di %3$s (%4$s).</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Questa chiave privata è già nel tuo portafoglio.</string>
   <!-- empty private key error message -->
@@ -219,7 +219,7 @@
   <!-- Manage wallet modal title -->
   <string name="ManageWallet.title">Gestisci Portafoglio</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Acquista Shitcoin</string>
+  <string name="MenuButton.buy">Acquista Actinium</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Blocca Portafoglio</string>
   <!-- Menu button title -->
@@ -263,9 +263,9 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Impossibile effettuare il pagamento</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">I pagamenti in Shitcoin non possono essere inferiori a %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">I pagamenti in Actinium non possono essere inferiori a %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Gli output di transazione Shitcoin non possono essere inferiori a $@.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Gli output di transazione Actinium non possono essere inferiori a $@.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">tipo di firma non supportato</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -441,7 +441,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">A</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Gli indirizzi Shitcoin dovrebbero essere utilizzati una sola volta.</string>
+  <string name="Send.UsedAddress.firstLine">Gli indirizzi Actinium dovrebbero essere utilizzati una sola volta.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Il riutilizzo riduce la privacy sia tua che del destinatario e può causare perdite se il destinatario non controlla direttamente l\'indirizzo.</string>
   <!-- Adress already used alert title -->

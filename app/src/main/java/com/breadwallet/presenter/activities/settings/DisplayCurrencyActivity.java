@@ -111,7 +111,7 @@ public class DisplayCurrencyActivity extends BRActivity {
         if (entity != null) {
             String finalExchangeRate = BRCurrency.getFormattedCurrencyString(DisplayCurrencyActivity.this, BRSharedPrefs.getIso(this), new BigDecimal(entity.rate));
             boolean lites = BRSharedPrefs.getCurrencyUnit(this) == BRConstants.CURRENT_UNIT_LITES;
-            exchangeText.setText(BRCurrency.getFormattedCurrencyString(this, "SHT", new BigDecimal(lites ? 1000 : 1)) + " = " + finalExchangeRate);
+            exchangeText.setText(BRCurrency.getFormattedCurrencyString(this, "ACM", new BigDecimal(lites ? 1000 : 1)) + " = " + finalExchangeRate);
         }
         adapter.notifyDataSetChanged();
     }

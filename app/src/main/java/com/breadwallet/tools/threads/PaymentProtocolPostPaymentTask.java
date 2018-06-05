@@ -73,8 +73,8 @@ public class PaymentProtocolPostPaymentTask extends AsyncTask<String, String, St
             sent = false;
             URL url = new URL(paymentRequest.paymentURL);
             urlConnection = (HttpURLConnection) url.openConnection();
-            urlConnection.setRequestProperty("Content-Type", "application/shitcoin-payment");
-            urlConnection.addRequestProperty("Accept", "application/shitcoin-paymentack");
+            urlConnection.setRequestProperty("Content-Type", "application/actinium-payment");
+            urlConnection.addRequestProperty("Accept", "application/actinium-paymentack");
             urlConnection.setConnectTimeout(3000);
             urlConnection.setReadTimeout(3000);
             urlConnection.setRequestMethod("POST");

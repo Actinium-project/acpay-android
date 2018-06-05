@@ -121,7 +121,7 @@ public class CameraPlugin implements Plugin {
                     if (ActivityCompat.shouldShowRequestPermissionRationale(app,
                             Manifest.permission.CAMERA)) {
                         BRDialog.showCustomDialog(app, "Permission Required.",
-                                "Allow camera access in \"Settings\" > \"Apps\" > \"shtpay\" > \"Permissions\"",
+                                "Allow camera access in \"Settings\" > \"Apps\" > \"acpay\" > \"Permissions\"",
                                 "close", null, new BRDialogView.BROnClickListener() {
                                     @Override
                                     public void onClick(BRDialogView brDialogView) {

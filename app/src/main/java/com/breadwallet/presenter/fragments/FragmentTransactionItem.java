@@ -162,7 +162,7 @@ public class FragmentTransactionItem extends Fragment {
 //        Log.e(TAG, "fillTexts fee: " + item.getFee());
 //        Log.e(TAG, "fillTexts hash: " + item.getHexId());
         //get the current iso
-        String iso = BRSharedPrefs.getPreferredBTC(getActivity()) ? "SHT" : BRSharedPrefs.getIso(getContext());
+        String iso = BRSharedPrefs.getPreferredBTC(getActivity()) ? "ACM" : BRSharedPrefs.getIso(getContext());
         TxMetaData txMetaData = KVStoreManager.getInstance().getTxMetaData(getContext(), item.getTxHash());
 
         //get the tx amount

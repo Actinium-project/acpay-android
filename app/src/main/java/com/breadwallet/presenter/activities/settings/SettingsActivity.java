@@ -197,7 +197,7 @@ public class SettingsActivity extends BRActivity {
             }
         }, false));
 
-        items.add(new BRSettingsItem("ShtPay", "", null, true));
+        items.add(new BRSettingsItem("ACPay", "", null, true));
 
         /*items.add(new BRSettingsItem(getString(R.string.Settings_shareData), "", new View.OnClickListener() {
             @Override

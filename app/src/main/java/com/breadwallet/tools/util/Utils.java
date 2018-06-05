@@ -178,7 +178,7 @@ public class Utils {
     public static String createBitcoinUrl(String address, long satoshiAmount, String label, String message, String rURL) {
 
         Uri.Builder builder = new Uri.Builder();
-        builder = builder.scheme("ShitcoinDeLuxe");
+        builder = builder.scheme("Actinium");
         if (address != null && !address.isEmpty())
             builder = builder.appendPath(address);
         if (satoshiAmount != 0)
@@ -231,7 +231,7 @@ public class Utils {
             }
         }
         String release = Build.VERSION.RELEASE;
-        return String.format(Locale.getDefault(), "%s/%d %s %s/%s", "shtpay", versionNumber, cfnetwork, "Android", release);
+        return String.format(Locale.getDefault(), "%s/%d %s %s/%s", "acpay", versionNumber, cfnetwork, "Android", release);
     }
 
     public static String reverseHex(String hex) {

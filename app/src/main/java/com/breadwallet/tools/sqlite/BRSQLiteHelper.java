@@ -46,7 +46,7 @@ public class BRSQLiteHelper extends SQLiteOpenHelper {
         return instance;
     }
 
-    private static final String DATABASE_NAME = "shtpay.db";
+    private static final String DATABASE_NAME = "acpay.db";
     private static final int DATABASE_VERSION = 12;
 
     /**

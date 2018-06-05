@@ -93,7 +93,7 @@ public class BRCurrency {
         String symbol = null;
         decimalFormatSymbols = currencyFormat.getDecimalFormatSymbols();
 //        int decimalPoints = 0;
-        if (Objects.equals(isoCurrencyCode, "SHT")) {
+        if (Objects.equals(isoCurrencyCode, "ACM")) {
             symbol = BRExchange.getBitcoinSymbol(app);
         } else {
             try {
@@ -122,7 +122,7 @@ public class BRCurrency {
 
     public static String getSymbolByIso(Context app, String iso) {
         String symbol;
-        if (Objects.equals(iso, "SHT")) {
+        if (Objects.equals(iso, "ACM")) {
             String currencySymbolString = BRConstants.litecoinLowercase;
             if (app != null) {
                 int unit = BRSharedPrefs.getCurrencyUnit(app);
@@ -153,16 +153,16 @@ public class BRCurrency {
 
     //for now only use for BTC and Bits
     public static String getCurrencyName(Context app, String iso) {
-        if (Objects.equals(iso, "SHT")) {
+        if (Objects.equals(iso, "ACM")) {
             if (app != null) {
                 int unit = BRSharedPrefs.getCurrencyUnit(app);
                 switch (unit) {
                     case CURRENT_UNIT_PHOTONS:
-                        return "μSHT";
+                        return "μACM";
                     case BRConstants.CURRENT_UNIT_LITES:
-                        return "mSHT";
+                        return "mACM";
                     case BRConstants.CURRENT_UNIT_LITECOINS:
-                        return "SHT";
+                        return "ACM";
                 }
             }
         }
@@ -172,9 +172,9 @@ public class BRCurrency {
     public static int getMaxDecimalPlaces(String iso) {
         if (Utils.isNullOrEmpty(iso)) return 8;
 
-        if (iso.equalsIgnoreCase("SHT")) {
+        if (iso.equalsIgnoreCase("ACM")) {
             return 8;
-        } else if (iso.equalsIgnoreCase("mSHT")) {
+        } else if (iso.equalsIgnoreCase("mACM")) {
             return 5;
         } else {
             Currency currency = Currency.getInstance(iso);

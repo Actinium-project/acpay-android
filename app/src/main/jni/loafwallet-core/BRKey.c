@@ -30,8 +30,8 @@
 #include <assert.h>
 #include <pthread.h>
 
-#define BITCOIN_PRIVKEY      73
-#define BITCOIN_PRIVKEY_TEST 73
+#define BITCOIN_PRIVKEY      181
+#define BITCOIN_PRIVKEY_TEST 181
 
 #if __BIG_ENDIAN__ || (defined(__BYTE_ORDER__) && __BYTE_ORDER__ == __ORDER_BIG_ENDIAN__) ||\
     __ARMEB__ || __THUMBEB__ || __AARCH64EB__ || __MIPSEB__
