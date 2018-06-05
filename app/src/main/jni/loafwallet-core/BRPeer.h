@@ -62,8 +62,13 @@ extern "C" {
 #define SERVICES_NODE_BLOOM   0x04 // BIP111: https://github.com/bitcoin/bips/blob/master/bip-0111.mediawiki
 #define SERVICES_NODE_BCASH   0x20 // https://github.com/Bitcoin-UAHF/spec/blob/master/uahf-technical-spec.md
 
+<<<<<<< HEAD
 #define BR_VERSION "0.0.3"
 #define USER_AGENT "/acpay:" BR_VERSION "/"
+=======
+#define BR_VERSION "0.0.1"
+#define USER_AGENT "/shtmobile:" BR_VERSION "/"
+>>>>>>> 64f414a0e9fb7d0e6c1e0b80decff71caec77f49
 
 // explanation of message types at: https://en.bitcoin.it/wiki/Protocol_specification
 #define MSG_VERSION     "version"
