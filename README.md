@@ -1,11 +1,7 @@
 ## ACPay for Android
 ------
 
-<<<<<<< HEAD
 [<img src="https://github.com/Actinium-project/acpay-android/raw/master/images/icon-google-play.png">](
-=======
-[<img src="https://github.com/Actinium-project/acpay/raw/master/images/icon-google-play.png">](
->>>>>>> 64f414a0e9fb7d0e6c1e0b80decff71caec77f49
 https://play.google.com/store/apps/details?id=org.acpay)
 
 ### A completely standalone Actinium wallet
