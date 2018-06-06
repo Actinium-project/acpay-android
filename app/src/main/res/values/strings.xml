@@ -495,11 +495,7 @@
   <!-- Support email adress & twitter -->
   <string name="Support.Title">Have questions or concerns?</string>
   <!-- Support email adress & twitter -->
-<<<<<<< HEAD
   <string name="Support.Message">Leave us a message at info@actinium.org or tweet us @ActiniumCrypto</string>
-=======
-  <string name="Support.Message">Leave us a message at info@actinium.org or tweet us @brakmic</string>
->>>>>>> 64f414a0e9fb7d0e6c1e0b80decff71caec77f49
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Connecting</string>
   <!-- Syncing view header text -->

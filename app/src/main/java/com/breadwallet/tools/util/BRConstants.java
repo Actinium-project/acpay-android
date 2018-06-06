@@ -141,12 +141,7 @@ public class BRConstants {
     public static final String startView = "start-view";
     public static final String wipeWallet = "wipe-wallet";
 
-
-<<<<<<< HEAD
     public static final String TWITTER_LINK = "https://twitter.com/ActiniumCrypto";
-=======
-    public static final String TWITTER_LINK = "https://twitter.com/brakmic";
->>>>>>> 64f414a0e9fb7d0e6c1e0b80decff71caec77f49
     public static final String REDDIT_LINK = "https://www.reddit.com/r/ActiniumCrypto";
     public static final String BLOG_LINK = "http://actinium.org";
 
