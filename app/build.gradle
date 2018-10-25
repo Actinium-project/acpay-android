@@ -10,8 +10,8 @@ model {
             applicationId = 'org.acpay'
             minSdkVersion.apiLevel = 26
             targetSdkVersion.apiLevel = 26
-            versionCode = 3
-            versionName = "3"
+            versionCode = 6
+            versionName = "6"
         }
 
         productFlavors.with {

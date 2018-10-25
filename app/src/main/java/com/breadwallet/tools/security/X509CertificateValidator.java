@@ -66,7 +66,6 @@ public class X509CertificateValidator {
             throw new CertificateChainNotFound("no certificates supplied");
         }
         try {
-//            Log.e(TAG, "The size of certList is: " + certList.size());
             TrustManagerFactory tmf = TrustManagerFactory.getInstance("X509");
             tmf.init((KeyStore) null);
             X509Certificate[] certListArray = new X509Certificate[certList.size()];
@@ -76,7 +75,6 @@ public class X509CertificateValidator {
             TrustManager[] tms = tmf.getTrustManagers();
             for (TrustManager m : tms) {
                 X509TrustManager xtm = (X509TrustManager) m;
-//                Log.d(TAG, "checking chain with " + xtm + ", Alg: " + certListArray[0].getSigAlgName());
                 xtm.checkClientTrusted(certListArray, certListArray[0].getSigAlgName());
             }
             PublicKey publicKey = certListArray[0].getPublicKey();
@@ -85,7 +83,6 @@ public class X509CertificateValidator {
             signature.update(paymentRequest.signature);
             signature.initVerify(publicKey);
             result = certList.get(0).getSubjectX500Principal().getName();
-//            Log.e(TAG,"result cn getName(): " + result);
 
         } catch (CertificateException | InvalidKeyException | SignatureException | NoSuchAlgorithmException e) {
             e.printStackTrace();

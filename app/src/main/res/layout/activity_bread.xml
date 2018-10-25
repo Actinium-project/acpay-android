@@ -90,32 +90,32 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
-                        android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:text="="
                         android:textColor="@color/white"
                         android:textSize="16sp"
+                        android:visibility="invisible"
                         app:customFont="CircularPro-Book.otf"
                         app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/primary_price"
                         app:layout_constraintTop_toBottomOf="@+id/wallet_logo"
-                        app:layout_constraintVertical_bias="0.492"
-                        app:layout_constraintLeft_toRightOf="@+id/primary_price"/>
+                        app:layout_constraintVertical_bias="0.492" />
 
                     <com.breadwallet.presenter.customviews.BRText
                         android:id="@+id/secondary_price"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
                         android:text="b0"
                         android:textColor="@color/white"
                         android:textSize="16sp"
+                        android:visibility="invisible"
                         app:customFont="CircularPro-Book.otf"
-                        android:layout_marginTop="8dp"
-                        app:layout_constraintTop_toBottomOf="@+id/wallet_logo"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        android:layout_marginBottom="8dp"
-                        app:layout_constraintVertical_bias="0.492"
-                        app:layout_constraintLeft_toRightOf="@+id/equals"/>
+                        app:layout_constraintLeft_toRightOf="@+id/equals"
+                        app:layout_constraintTop_toBottomOf="@+id/wallet_logo"
+                        app:layout_constraintVertical_bias="0.492" />
 
                     <com.breadwallet.presenter.customviews.BRText
                         android:id="@+id/price_change_text"

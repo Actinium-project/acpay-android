@@ -66,10 +66,11 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 };
 
 static const char *dns_seeds[] = {
-        "seed1.shit.supply.",
-        "seed2.shit.supply.",
-        "seed3.shit.supply.",
-        "seed4.shit.supply."
+        "api.actinium.org",
+        "pool.actinium.org",
+        "fastpool.actinium.org",
+        "goldmine.actinium.org",
+        "smilingmining.com"
 };
 
 #else // main net
@@ -93,10 +94,13 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 };
 
 static const char *dns_seeds[] = {
-    "seed1.shit.supply.",
-    "seed2.shit.supply.",
-    "seed3.shit.supply.",
-    "seed4.shit.supply."
+    "seed1.actinium.org",
+    "seed2.actinium.org",
+    "seed3.actinium.org",
+    "seed4.actinium.org",
+    "seed5.actinium.org",
+    "explorer.actinium.org",
+    "goldmine.actinium.org"
 };
 
 #endif

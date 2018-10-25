@@ -34,6 +34,8 @@ import java.util.Set;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import javax.net.ssl.HttpsURLConnection;
+
 import static com.breadwallet.presenter.fragments.FragmentSend.isEconomyFee;
 
 /**
@@ -183,7 +185,7 @@ public class CurrencyFetchManager {
 
 
     public static JSONArray getJSonArray(Activity activity) {
-        String jsonString = callURL(activity, "https://litecoin.com/api/v1/rates");
+        String jsonString = callURL(activity, "https://api.actinium.org/v1/acm/rates");
         JSONArray jsonArray = null;
         if (jsonString == null) return null;
         try {
@@ -194,7 +196,7 @@ public class CurrencyFetchManager {
     }
 
     public static JSONArray getBackUpJSonArray(Activity activity) {
-        String jsonString = callURL(activity, "https://bitpay.com/rates");
+        String jsonString = callURL(activity, "https://api.actinium.org/v1/acm/rates");
 
         JSONArray jsonArray = null;
         if (jsonString == null) return null;
@@ -251,7 +253,7 @@ public class CurrencyFetchManager {
             urlConn.setRequestProperty("User-agent", Utils.getAgentString(app, "android/HttpURLConnection"));
             urlConn.setReadTimeout(60 * 1000);
 
-            String strDate = urlConn.getHeaderField("date");
+            String strDate =  new Date().toString();//urlConn.getHeaderField("date");
 
             if (strDate == null || app == null) {
                 Log.e(TAG, "callURL: strDate == null!!!");
